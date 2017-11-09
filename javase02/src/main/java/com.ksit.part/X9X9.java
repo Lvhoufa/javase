@@ -1,5 +1,8 @@
 package com.ksit.part;
 
+/**
+ * 输出一个99乘法表
+ */
 class X9X9{
 	public static void main(String args[]){
 		

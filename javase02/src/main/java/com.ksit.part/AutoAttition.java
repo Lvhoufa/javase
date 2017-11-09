@@ -1,12 +1,16 @@
-package com.ksit.part;
 
-class AutoAttition{
+
+/**
+ * 前自增和后自增的区别
+ */
+ class AutoAttition{
 
 	public static void main(String args[]){
 	
-		int number1 = 1;
+		int number1 = 10;
 		int number2 = 2;
 		
+		/*
 		//先赋值再自增 number3=1,number1=2
 		int number3 = number1++;
 
@@ -24,7 +28,12 @@ class AutoAttition{
 		System.out.println(number5);
 		System.out.println(number6);
 		System.out.println(number1);
-
+		*/
+		
+		System.out.println(number1);
+		int number3 = number1++ + ++number1;
+		System.out.println(number1);
+		System.out.println(number3);
 
 	}
 }
